@@ -7,7 +7,7 @@ draft: false
 
 Defines the quadrille default text zoom level. Default is `0.89`
 
-Used by [drawQuadrille](({{< ref "draw_quadrille" >}}))
+Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
 # Example
 

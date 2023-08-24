@@ -7,7 +7,7 @@ draft: false
 
 Defines the quadrille default outline weight. Default is `2`.
 
-Used by [drawQuadrille](({{< ref "draw_quadrille" >}}))
+Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
 # Example
 

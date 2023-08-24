@@ -7,7 +7,7 @@ draft: false
 
 Defines the quadrille default text drawing color. Default is `grey`.
 
-Used by [drawQuadrille](({{< ref "draw_quadrille" >}}))
+Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
 # Example
 
