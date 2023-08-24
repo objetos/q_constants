@@ -7,7 +7,7 @@ draft: false
 
 Defines the quadrille default drawing cell length in pixels. Default is `100`.
 
-Used by [drawQuadrille]({{< ref "draw_quadrille" >}})
+Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
 # Example
 
