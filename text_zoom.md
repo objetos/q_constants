@@ -1,11 +1,11 @@
 ---
-weight: 4
+weight: 5
 draft: false
 ---
 
-# `TEXT_COLOR`
+# `TEXT_ZOOM`
 
-Defines the quadrille default text drawing color. Default is `white`.
+Defines the quadrille default text zoom level. Default is `0.89`
 
 Used by [drawQuadrille](({{< ref "draw_quadrille" >}}))
 
@@ -13,16 +13,16 @@ Used by [drawQuadrille](({{< ref "draw_quadrille" >}}))
 
 {{< p5-global-iframe lib1="https://cdn.jsdelivr.net/gh/objetos/p5.quadrille.js/p5.quadrille.js" id="number" width="625" height="425" >}}
 `use strict`;
-Quadrille.TEXT_COLOR = 'magenta';
+Quadrille.TEXT_ZOOM = 0.5;
 let quadrille;
-let colorPicker;
+let zoomSlider;
 
 function setup() {
   createCanvas(6 * Quadrille.CELL_LENGTH, 4 * Quadrille.CELL_LENGTH);
   quadrille = createQuadrille(5, 'hola mundo');
-  colorPicker = createColorPicker(Quadrille.TEXT_COLOR);
-  colorPicker.position(width - 60, 10);
-  colorPicker.input(() => Quadrille.TEXT_COLOR = colorPicker.value());
+  zoomSlider = createSlider(0.1, 0.9, 0.5, 0.01);
+  zoomSlider.position(10, 210);
+  zoomSlider.input(() => Quadrille.TEXT_ZOOM = zoomSlider.value());
 }
 
 function draw() {
@@ -33,16 +33,16 @@ function draw() {
 
 {{< details title="code" open=false >}}
 ```js
-Quadrille.TEXT_COLOR = 'magenta';
+Quadrille.TEXT_ZOOM = 0.5;
 let quadrille;
-let colorPicker;
+let zoomSlider;
 
 function setup() {
   createCanvas(6 * Quadrille.CELL_LENGTH, 4 * Quadrille.CELL_LENGTH);
   quadrille = createQuadrille(5, 'hola mundo');
-  colorPicker = createColorPicker(Quadrille.TEXT_COLOR);
-  colorPicker.position(width - 60, 10);
-  colorPicker.input(() => Quadrille.TEXT_COLOR = colorPicker.value());
+  zoomSlider = createSlider(0.1, 0.9, 0.5, 0.01);
+  zoomSlider.position(10, 210);
+  zoomSlider.input(() => Quadrille.TEXT_ZOOM = zoomSlider.value());
 }
 
 function draw() {
