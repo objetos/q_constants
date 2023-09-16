@@ -7,7 +7,7 @@ draft: false
 
 Defines the quadrille default background color. Default is `black`.
 
-Used by [sort]({{< ref "sort" >}}) and [sample]({{< ref "sample" >}}).
+Used by [sort](https://objetos.github.io/p5.quadrille.js/docs/visual_computing/sort/) and [sample](https://objetos.github.io/p5.quadrille.js/docs/visual_computing/sample/).
 
 # Syntax
 
