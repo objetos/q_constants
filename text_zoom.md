@@ -3,7 +3,7 @@ weight: 5
 draft: false
 ---
 
-# `TEXT_ZOOM`
+# `textZoom`
 
 Defines the quadrille default text zoom level. Default is `0.89`
 
@@ -13,16 +13,16 @@ Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
 {{< p5-global-iframe lib1="https://cdn.jsdelivr.net/gh/objetos/p5.quadrille.js/p5.quadrille.js" width="625" height="425" >}}
 `use strict`;
-Quadrille.TEXT_ZOOM = 0.5;
+Quadrille.textZoom = 0.5;
 let quadrille;
 let zoomSlider;
 
 function setup() {
-  createCanvas(6 * Quadrille.CELL_LENGTH, 4 * Quadrille.CELL_LENGTH);
+  createCanvas(6 * Quadrille.cellLength, 4 * Quadrille.cellLength);
   quadrille = createQuadrille(5, 'hola mundo');
   zoomSlider = createSlider(0.1, 0.9, 0.5, 0.01);
   zoomSlider.position(10, 210);
-  zoomSlider.input(() => Quadrille.TEXT_ZOOM = zoomSlider.value());
+  zoomSlider.input(() => Quadrille.textZoom = zoomSlider.value());
 }
 
 function draw() {
@@ -33,16 +33,16 @@ function draw() {
 
 {{< details title="code" open=false >}}
 ```js
-Quadrille.TEXT_ZOOM = 0.5;
+Quadrille.textZoom = 0.5;
 let quadrille;
 let zoomSlider;
 
 function setup() {
-  createCanvas(6 * Quadrille.CELL_LENGTH, 4 * Quadrille.CELL_LENGTH);
+  createCanvas(6 * Quadrille.cellLength, 4 * Quadrille.cellLength);
   quadrille = createQuadrille(5, 'hola mundo');
   zoomSlider = createSlider(0.1, 0.9, 0.5, 0.01);
   zoomSlider.position(10, 210);
-  zoomSlider.input(() => Quadrille.TEXT_ZOOM = zoomSlider.value());
+  zoomSlider.input(() => Quadrille.textZoom = zoomSlider.value());
 }
 
 function draw() {
@@ -54,4 +54,4 @@ function draw() {
 
 # Syntax
 
-> `Quadrille.TEXT_COLOR`
+> `Quadrille.textColor`

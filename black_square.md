@@ -3,7 +3,7 @@ weight: 8
 draft: false
 ---
 
-# `BLACK_SQUARE`
+# `blackSquare`
 
 Defines the black square color of a chess quadrille. Default is `#D28C45`.
 
@@ -11,4 +11,4 @@ Used by [createQuadrille()]({{< ref "create_quadrille" >}}) and [fill()]({{< ref
 
 # Syntax
 
-> `Quadrille.BLACK_SQUARE`
+> `Quadrille.blackSquare`

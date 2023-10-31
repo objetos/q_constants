@@ -3,7 +3,7 @@ weight: 1
 draft: false
 ---
 
-# `CELL_LENGTH`
+# `cellLength`
 
 Defines the quadrille default drawing cell length in pixels. Default is `100`.
 
@@ -13,16 +13,16 @@ Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
 {{< p5-global-iframe lib1="https://cdn.jsdelivr.net/gh/objetos/p5.quadrille.js/p5.quadrille.js" width="425" height="425" >}}
 `use strict`;
-Quadrille.CELL_LENGTH = 55;
+Quadrille.cellLength = 55;
 let quadrille;
 let lengthSlider;
 
 function setup() {
   createCanvas(400, 400);
   quadrille = createQuadrille(4, 4);
-  lengthSlider = createSlider(10, 100, Quadrille.CELL_LENGTH, 5);
+  lengthSlider = createSlider(10, 100, Quadrille.cellLength, 5);
   lengthSlider.position(10, height - 20);
-  lengthSlider.input(() => Quadrille.CELL_LENGTH = lengthSlider.value());
+  lengthSlider.input(() => Quadrille.cellLength = lengthSlider.value());
 }
 
 function draw() {
@@ -33,16 +33,16 @@ function draw() {
 
 {{< details title="code" open=false >}}
 ```js
-Quadrille.CELL_LENGTH = 55;
+Quadrille.cellLength = 55;
 let quadrille;
 let lengthSlider;
 
 function setup() {
   createCanvas(400, 400);
   quadrille = createQuadrille(4, 4);
-  lengthSlider = createSlider(10, 100, Quadrille.CELL_LENGTH, 5);
+  lengthSlider = createSlider(10, 100, Quadrille.cellLength, 5);
   lengthSlider.position(10, height - 20);
-  lengthSlider.input(() => Quadrille.CELL_LENGTH = lengthSlider.value());
+  lengthSlider.input(() => Quadrille.cellLength = lengthSlider.value());
 }
 
 function draw() {
@@ -54,4 +54,4 @@ function draw() {
 
 # Syntax
 
-> `Quadrille.CELL_LENGTH`
+> `Quadrille.cellLength`

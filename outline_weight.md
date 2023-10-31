@@ -3,7 +3,7 @@ weight: 3
 draft: false
 ---
 
-# `OUTLINE_WEIGHT`
+# `outlineWeight`
 
 Defines the quadrille default outline weight. Default is `2`.
 
@@ -19,9 +19,9 @@ let weightSlider;
 function setup() {
   createCanvas(400, 400);
   quadrille = createQuadrille(4, 4);
-  weightSlider = createSlider(1, 10, Quadrille.OUTLINE_WEIGHT, 0.5);
+  weightSlider = createSlider(1, 10, Quadrille.outlineWeight, 0.5);
   weightSlider.position(10, height - 20);
-  weightSlider.input(() => Quadrille.OUTLINE_WEIGHT = weightSlider.value());
+  weightSlider.input(() => Quadrille.outlineWeight = weightSlider.value());
 }
 
 function draw() {
@@ -38,9 +38,9 @@ let weightSlider;
 function setup() {
   createCanvas(400, 400);
   quadrille = createQuadrille(4, 4);
-  weightSlider = createSlider(1, 10, Quadrille.OUTLINE_WEIGHT, 0.5);
+  weightSlider = createSlider(1, 10, Quadrille.outlineWeight, 0.5);
   weightSlider.position(10, height - 20);
-  weightSlider.input(() => Quadrille.OUTLINE_WEIGHT = weightSlider.value());
+  weightSlider.input(() => Quadrille.outlineWeight = weightSlider.value());
 }
 
 function draw() {
@@ -52,4 +52,4 @@ function draw() {
 
 # Syntax
 
-> `Quadrille.OUTLINE_WEIGHT`
+> `Quadrille.outlineWeight`

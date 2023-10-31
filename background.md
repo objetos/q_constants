@@ -3,7 +3,7 @@ weight: 6
 draft: false
 ---
 
-# `BACKGROUND`
+# `background`
 
 Defines the quadrille default background color. Default is `black`.
 
@@ -11,4 +11,4 @@ Used by [sort](https://objetos.github.io/p5.quadrille.js/docs/visual_computing/s
 
 # Syntax
 
-> `Quadrille.BACKGROUND`
+> `Quadrille.background`
