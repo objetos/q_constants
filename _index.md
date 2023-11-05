@@ -34,5 +34,5 @@ function draw() {
 
 In this code:
 
-* The `q1` instance will use a [cellLength]({{< ref "cell_length" >}}) of `50` and the custom `colorDisplay` function for rendering.
-* Conversely, `q2` will be rendered with a `cellLength` of `200` while utilizing the default [colorDisplay]({{< ref "color_display" >}}) function.
+* The `q1` instance will use a [cellLength]({{< ref "cell_length" >}}) of `50` and the custom `colorDisplay` function to drawing cells that are filled with [colors](https://p5js.org/reference/#/p5.Color).
+* Conversely, `q2` will be rendered with a `cellLength` of `200` while utilizing the default [colorDisplay]({{< ref "color_display" >}}) function to drawing cells that are filled with [colors](https://p5js.org/reference/#/p5.Color).
