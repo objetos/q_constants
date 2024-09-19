@@ -14,10 +14,10 @@ static chessSymbols = {
 }
 ```
 
-{{< hint info >}}
+{{< callout type="info" >}}
 **Observation**\
 Use `Quadrille.setChessSymbols(chessSymbols)` to customize the mappings.
-{{< /hint >}}
+{{< /callout >}}
 
 # Syntax
 
