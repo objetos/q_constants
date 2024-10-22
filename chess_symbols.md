@@ -1,9 +1,8 @@
 ---
 weight: 9
 draft: false
+title: chessSymbols()
 ---
-
-# `chessSymbols()`
 
 Object literal which defines the key to symbol mappings of a chess game as:
 

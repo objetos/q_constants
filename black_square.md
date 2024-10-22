@@ -1,9 +1,8 @@
 ---
 weight: 8
 draft: false
+title: blackSquare
 ---
-
-# `blackSquare`
 
 Defines the black square color of a chess quadrille. Default is `#D28C45`.
 

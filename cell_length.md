@@ -1,9 +1,8 @@
 ---
 weight: 1
 draft: false
+title: cellLength
 ---
-
-# `cellLength`
 
 Defines the quadrille default drawing cell length in pixels. Default is `100`.
 

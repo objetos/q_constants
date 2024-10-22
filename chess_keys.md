@@ -1,9 +1,8 @@
 ---
 weight: 10
 draft: false
+title: chessKeys()
 ---
-
-# `chessKeys()`
 
 Object literal which defines the symbol to key mappings (reverse of [chessSymbols]({{< ref "chess_symbols" >}})) of a chess game as:
 

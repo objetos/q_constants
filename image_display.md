@@ -1,9 +1,8 @@
 ---
 weight: 14
 draft: false
+title: imageDisplay
 ---
-
-# `imageDisplay`
 
 Static method for drawing cells that are filled with [p5.Image](https://p5js.org/reference/#/p5.Image) or [p5.Graphics](https://p5js.org/reference/#/p5.Graphics) instances.
 

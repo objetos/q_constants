@@ -1,9 +1,8 @@
 ---
 weight: 7
 draft: false
+title: whiteSquare
 ---
-
-# `whiteSquare`
 
 Defines the white square color of a chess quadrille. Default is `#FDCDAA`.
 

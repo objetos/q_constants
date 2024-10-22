@@ -1,9 +1,8 @@
 ---
 weight: 3
 draft: false
+title: outlineWeight
 ---
-
-# `outlineWeight`
 
 Defines the quadrille default outline weight. Default is `2`.
 

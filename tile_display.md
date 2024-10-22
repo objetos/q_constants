@@ -1,9 +1,8 @@
 ---
 weight: 11
 draft: false
+title: tileDisplay
 ---
-
-# `tileDisplay`
 
 Static method for drawing cell tiles.
 

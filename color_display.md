@@ -1,9 +1,8 @@
 ---
 weight: 13
 draft: false
+title: colorDisplay
 ---
-
-# `colorDisplay`
 
 Static method for drawing cells that are filled with colors.
 

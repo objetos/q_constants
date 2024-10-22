@@ -1,9 +1,8 @@
 ---
 weight: 12
 draft: false
+title: numberDisplay
 ---
-
-# `numberDisplay`
 
 Static method for drawing cells that are filled with numbers. [Implemented](https://github.com/objetos/p5.quadrille.js/blob/main/p5.quadrille.js#L1086) in terms of [Quadrille.colorDisplay]({{< ref "color_display" >}}) as: `Quadrille.colorDisplay({ graphics: graphics, cell: graphics.color(graphics.constrain(cell, 0, 255)), cellLength: cellLength })`.
 

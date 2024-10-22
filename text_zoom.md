@@ -1,9 +1,8 @@
 ---
 weight: 5
 draft: false
+title: textZoom
 ---
-
-# `textZoom`
 
 Defines the quadrille default text zoom level. Default is `0.89`
 

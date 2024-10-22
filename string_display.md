@@ -1,9 +1,8 @@
 ---
 weight: 15
 draft: false
+title: stringDisplay
 ---
-
-# `string`
 
 Static method for drawing cells that are filled with colors.
 

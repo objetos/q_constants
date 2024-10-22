@@ -1,9 +1,8 @@
 ---
 weight: 2
 draft: false
+title: outline
 ---
-
-# `outline`
 
 Defines the quadrille default text drawing color. Default is `grey`.
 

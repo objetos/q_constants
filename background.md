@@ -1,9 +1,8 @@
 ---
 weight: 6
 draft: false
+title: "background"
 ---
-
-# `background`
 
 Defines the quadrille default background color. Default is `black`.
 
