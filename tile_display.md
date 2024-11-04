@@ -8,7 +8,7 @@ Static method for drawing cell tiles.
 
 Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
-# Example
+## Example
 
 {{< p5-global-iframe quadrille="true" width="130" height="130" >}}
 `use strict`;
@@ -35,11 +35,11 @@ function draw() {
 ```
 {{< /details >}}
 
-# Syntax
+## Syntax
 
 > `Quadrille.tileDisplay({graphics, [col], [row], [width], [height], [cellLength], [outline], [outlineWeight]})`
 
-# Parameters
+## Parameters
 
 | parameter  | description                                                                                 |
 |------------|---------------------------------------------------------------------------------------------|

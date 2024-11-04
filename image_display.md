@@ -8,7 +8,7 @@ Static method for drawing cells that are filled with [p5.Image](https://p5js.org
 
 Used by [drawQuadrille]({{< ref "draw_quadrille" >}}) and [sample](https://objetos.github.io/p5.quadrille.js/docs/visual_computing/sample/).
 
-# Example
+## Example
 
 {{< p5-global-iframe quadrille="true" width="190" height="190" >}}
 `use strict`;
@@ -47,11 +47,11 @@ function draw() {
 ```
 {{< /details >}}
 
-# Syntax
+## Syntax
 
 > `Quadrille.imageDisplay({graphics, value, [cellLength]})`
 
-# Parameters
+## Parameters
 
 | parameter  | description                                                                                 |
 |------------|---------------------------------------------------------------------------------------------|

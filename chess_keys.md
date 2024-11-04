@@ -18,6 +18,6 @@ static chessKeys = {
 Use `Quadrille.setChessSymbols(chessSymbols)` to customize the mappings.
 {{< /callout >}}
 
-# Syntax
+## Syntax
 
 > `Quadrille.chessKeys()`

@@ -8,6 +8,6 @@ Defines the white square color of a chess quadrille. Default is `#FDCDAA`.
 
 Used by [createQuadrille()]({{< ref "create_quadrille" >}}) and [fill()]({{< ref "fill" >}}).
 
-# Syntax
+## Syntax
 
 > `Quadrille.whiteSquare`

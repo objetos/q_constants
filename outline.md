@@ -8,7 +8,7 @@ Defines the quadrille default text drawing color. Default is `grey`.
 
 Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
-# Example
+## Example
 
 {{< p5-global-iframe quadrille="true" width="425" height="425" >}}
 `use strict`;
@@ -51,6 +51,6 @@ function draw() {
 ```
 {{< /details >}}
 
-# Syntax
+## Syntax
 
 > `Quadrille.outline`

@@ -8,7 +8,7 @@ Defines the quadrille default text zoom level. Default is `0.89`
 
 Used by [drawQuadrille]({{< ref "draw_quadrille" >}}).
 
-# Example
+## Example
 
 {{< p5-global-iframe quadrille="true" width="625" height="425" >}}
 `use strict`;
@@ -51,6 +51,6 @@ function draw() {
 ```
 {{< /details >}}
 
-# Syntax
+## Syntax
 
 > `Quadrille.textColor`
